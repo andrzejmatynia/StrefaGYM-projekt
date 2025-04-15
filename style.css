@@ -1,0 +1,411 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: hsl(0, 0%, 12%);
+}
+.subContainer1 {
+    width: 100%;
+}
+.subContainer2 {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(7rem);
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.subContainer3 {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(55rem);
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.subContainer4 {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(104rem);
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.subContainer5 {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(152rem);
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.subContainer6 {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(300rem);
+    background-color: hsl(0, 0%, 6%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    height: 12rem;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 6%);
+    padding: 1rem;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 7rem;
+}
+.navbarLeft {
+    width: auto;
+}
+.navbarRight {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-right: 3rem;
+    font-size: 2rem;
+    align-items: center;
+    transform: translateY(-0.5rem)
+}
+.mobileNavbarRight {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    color:rgb(162, 230, 85);
+}
+.backgroundImg {
+    height: 50rem;
+    width: 100vw;
+}
+.backgroundImg img {
+    height: 63rem;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+.block {
+    background-color: hsl(0, 0%, 12%);
+    height: 30rem;
+    width: 45rem;
+    position: absolute;
+    z-index: 1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    transform: translateY(4rem);
+}
+.block p {
+    font-size: 20px;
+}
+.oNas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider1 {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.uslugi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uslugiTop h1 {
+    font-size: 50px;
+}
+.uslugiBottom {
+    height: 60vh;
+    width: 90vw;
+    background-color: hsl(0, 0%, 6%);
+    margin-bottom: 5rem;
+    padding: 2rem;
+}
+.tableDiv1 {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 10% 60%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.cell {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.borderTop {
+    border-top: 1px white solid;
+}
+.borderBottom {
+    border-bottom: 1px white solid;
+}
+.borderLeft {
+    border-left: 1px white solid;
+}
+.borderRight {
+    border-right: 1px white solid;
+}
+.salaFitness {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.salaFitnessTop h1 {
+    font-size: 50px;
+}
+.salaFitnessBottom {
+    height: 60vh;
+    width: 90vw;
+    background-color: hsl(0, 0%, 6%);
+    margin-bottom: 5rem;
+    padding: 2rem;
+}
+.tableDiv2 {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.kontakt {
+    background-color: hsl(0, 0%, 6%);
+    height: 60vh;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    gap: 3rem;
+}
+    .kontaktInfo p {
+    color: gray;
+    font-size: 25px;
+}
+    .kontaktLeft h1 {
+    font-size: 40px;
+}
+    .kontaktLeft {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding-left: 5rem;
+}
+    .kontaktRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .kontaktRight img {
+    height: 95%;
+    width: 105%;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+    .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 90vw;
+    background-color: hsl(0, 0%, 12%);
+}
+    .galeriaTop {
+    margin-bottom: 3.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+    .galeriaTop h1 {
+    font-size: 40px;
+    text-align: center;
+}
+    .galeriaBottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    transform: translateX(-2%)
+}
+    .galeriaBottom img {
+    padding: 10%;
+    width: 90%;
+    margin-bottom: 5rem;
+}
+    h1:hover {
+    color: rgb(162, 230, 85);
+}
+    .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+    width: 100%;
+    gap: 3rem;
+}
+    .footerLeft img {
+    opacity: 50%;
+    height: 10rem;
+}
+    .footerRight img {
+    height: 2rem;
+    border-radius: 0.3rem;
+}
+    .footerRight p {
+    font-size: 17px;
+}
+    
+@media (max-width: 900px) {
+    .navbarRight {
+        display: none;
+    }
+    .mobileNavbarRight {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        z-index: 3;
+        transform: translate(-2.5rem, 1.5rem);
+    }
+    .navbarButton {
+        height: 4rem;
+        width: 4rem;
+        background-color: rgb(162, 230, 85);
+        border: none;
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .navbarButton:hover {
+        background-color: hsl(80, 70%, 72%);
+    }
+    .navbarList {
+        display: none;
+        list-style: none;
+        padding: 0;
+        margin-top: 4.5rem;
+        background-color: hsl(0, 0%, 12%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        transform: translate(-0.9rem, 0.5rem);
+    }
+    .navbarList.open {
+        display: block;
+    }
+    .navbarList li a {
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid hsl(0, 0%, 20%);
+    }
+    .navbarList li a:hover {
+        background-color: hsl(0, 0%, 20%);
+        color: rgb(162, 230, 85);
+    }
+    .navbarList li {
+        width: 5.5rem;
+        background-color: hsl(0, 0%, 10%);
+    }
+    .block {
+        background-color: hsl(0, 0%, 12%);
+        height: 30rem;
+        width: 90%;
+        position: absolute;
+        z-index: 1;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        color: white;
+        transform: translateY(4rem);
+    }
+    .uslugiBottom {
+        height: 60vh;
+        width: 85%;
+        background-color: hsl(0, 0%, 6%);
+        margin-bottom: 5rem;
+        padding: 2rem;
+    }
+    .salaFitnessBottom {
+        height: 60vh;
+        width: 85%;
+        background-color: hsl(0, 0%, 6%);
+        margin-bottom: 5rem;
+        padding: 2rem;
+    }
+    .tableDiv2 {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+    .subContainer6 {
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        transform: translateY(235rem);
+        background-color: hsl(0, 0%, 6%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gray;
+        height: 12rem;
+    }
+    .kontaktLeft {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        padding-left: 1rem;
+    }
+}
