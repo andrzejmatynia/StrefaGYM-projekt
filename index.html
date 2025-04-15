@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strefa GYM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="strefa_text.png">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbarButton = document.querySelector('.navbarButton');
+            const navbarList = document.querySelector('.navbarList');
+
+            if (navbarButton && navbarList) {
+                navbarButton.addEventListener('click', function() {
+                    navbarList.classList.toggle('open');
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="subContainer1">
+            <div class="navbar">
+                <div class="navbarLeft">
+                    <a href="#oNas"><img id="logo" src="strefa_text.png"></a>
+                </div>
+                <div class="mobileNavbarRight">
+                    <button class="navbarButton">☰</button>
+                    <ul class="navbarList">
+                        <li><a href="#oNas">O nas</a></li>
+                        <li><a href="#uslugi">Usługi</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                    </ul>
+                </div>
+                <div class="navbarRight">
+                    <a href="#oNas">O nas</a>
+                    <a href="#uslugi">Usługi</a>
+                    <a href="#kontakt">Kontakt</a>
+                    <a href="#galeria">Galeria</a>
+                </div>
+            </div>
+            <div class="oNas" id="oNas">
+                <div class="backgroundImg">
+                    <img src="backgroundImgReal.png">
+                </div>
+                <div class="block">
+                    <h1>O nas</h1>
+                    <div class="divider1"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et
+                        quam non tortor pulvinar vestibulum vitae nec diam. Duis in sapien
+                        in diam rhoncus luctus at ac ligula. Vivamus maximus tortor eget
+                        libero sodales, a placerat quam imperdiet. Pellentesque nec lectus
+                        tincidunt, pretium dui non, consequat mi. Suspendisse dapibus
+                        lacus varius ultricies suscipit. Suspendisse in tincidunt augue. Ut
+                        nec libero nec nisi luctus iaculis. Mauris tempor at erat eu aliquet.
+                        Sed dapibus neque et enim tempor bibendum. Proin fringilla arcu a
+                        rutrum feugiat. Nam pretium tempus pretium. Vivamus imperdiet </p>
+                </div>
+            </div>
+        </div>
+        <div class="subContainer2">
+            <div class="uslugi" id="uslugi">
+                <div class="uslugiTop">
+                    <h1>Usługi</h1>
+                </div>
+                <div class="uslugiBottom">
+                    <div class="tableDiv1">
+                        <div class="cell borderRight" style="font-size: 40px;">Siłownia i fitness</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom"></div>
+                        <div class="cell borderTop borderBottom borderRight">Karnet Open</div>
+                        <div class="cell borderTop borderRight">109 zł</div>
+                        <div class="cell borderBottom">Nielimitowany dostęp do siłowni i sali fitness na 1 miesiąc.</div>
+                        <div class="cell borderTop borderBottom borderRight">Karnet 12 wejść</div>
+                        <div class="cell borderTop borderRight">99 zł</div>
+                        <div class="cell borderBottom">12 wejść na siłownie i sale fitness.</div>
+                        <div class="cell borderTop borderBottom borderRight">Karnet 8 wejść</div>
+                        <div class="cell borderTop borderRight">89 zł</div>
+                        <div class="cell borderBottom">8 wejść na siłownie i sale fitness.</div>
+                        <div class="cell borderTop borderBottom borderRight">Karnet 4 wejścia</div>
+                        <div class="cell borderTop borderRight">59 zł</div>
+                        <div class="cell borderBottom">4 wejścia na siłownie i sale fitness.</div>
+                        <div class="cell borderTop borderBottom borderRight">Wejście jednorazowe</div>
+                        <div class="cell borderTop borderRight">20 zł</div>
+                        <div class="cell borderBottom">Jedno wejście na siłownie i sale fitness.</div>
+                        <div class="cell borderTop borderRight">Trening personalny</div>
+                        <div class="cell borderTop borderRight">50 zł</div>
+                        <div class="cell">Trener personalny i osobisty plan treningowy. (1 miesiąc)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subContainer3">
+            <div class="salaFitness">
+                <div class="salaFitnessTop">
+                    <h1>Sala Fitness</h1>
+                </div>
+                <div class="salaFitnessBottom">
+                    <div class="tableDiv2">
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight">Poniedziałek</div>
+                        <div class="cell borderBottom borderRight">Wtorek</div>
+                        <div class="cell borderBottom borderRight">Środa</div>
+                        <div class="cell borderBottom borderRight">Czwartek</div>
+                        <div class="cell borderBottom borderRight">Piątek</div>
+                        <div class="cell borderBottom borderRight">Sobota</div>
+                        <div class="cell borderBottom">Niedziela</div>
+
+                        <div class="cell borderBottom borderRight">11:30</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight">Boks</div>
+                        <div class="cell borderBottom"></div>
+
+                        <div class="cell borderBottom borderRight">17:00</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight">BJJ</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight">Zapasy</div>
+                        <div class="cell borderBottom borderRight">BJJ</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom"></div>
+
+                        <div class="cell borderBottom borderRight">18:00</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight">Boks</div>
+                        <div class="cell borderBottom borderRight">Zapasy</div>
+                        <div class="cell borderBottom borderRight">Boks</div>
+                        <div class="cell borderBottom borderRight">Rezerwacja</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom"></div>
+
+                        <div class="cell borderBottom borderRight">19:00</div>
+                        <div class="cell borderBottom borderRight">Boks</div>
+                        <div class="cell borderBottom borderRight">BJJ</div>
+                        <div class="cell borderBottom borderRight">Boks</div>
+                        <div class="cell borderBottom borderRight">Zumba</div>
+                        <div class="cell borderBottom borderRight">Salsation</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom"></div>
+
+                        <div class="cell borderBottom borderRight">20:00</div>
+                        <div class="cell borderBottom borderRight">K1</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight">BJJ</div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom borderRight"></div>
+                        <div class="cell borderBottom"></div>
+
+                        <div class="cell borderRight">20:30</div>
+                        <div class="cell borderRight"></div>
+                        <div class="cell borderRight"></div>
+                        <div class="cell borderRight"></div>
+                        <div class="cell borderRight"></div>
+                        <div class="cell borderRight">K1</div>
+                        <div class="cell borderRight"></div>
+                        <div class="cell"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subContainer4">
+            <div class="kontakt" id="kontakt">
+                <div class="kontaktLeft">
+                    <h1>Zacznij trening z nami już dzisiaj!</h1>
+                    <div class="kontaktInfo">
+                        <p>+48 601 478 485</p>
+                        <p>info@strefagym.pl</p>
+                        <p>Łódzka 18, Zgierz, 95-100</p>
+                    </div>
+                </div>
+                <div class="kontaktRight">
+                    <img src="kontaktImg.png">
+                </div>
+            </div>
+        </div>
+        <div class="subContainer5">
+            <div class="galeria" id="galeria">
+                <div class="galeriaTop">
+                    <h1>Galeria</h1>
+                </div>
+                <div class="galeriaBottom">
+                    <img src="kontaktImg.png">
+                    <img src="kontaktImg.png">
+                    <img src="kontaktImg.png">
+                    <img src="kontaktImg.png">
+                    <img src="kontaktImg.png">
+                    <img src="kontaktImg.png">
+                </div>
+            </div>
+        </div>
+        <div class="subContainer6">
+            <div class="footer">
+                <div class="footerLeft">
+                    <img src="strefa_text.png">
+                </div>
+                <div class="footerRight">
+                    <a href="https://www.facebook.com/strefagym?locale=pl_PL">
+                        <img src="facebookIcon.png">
+                    </a>
+
+                    <p>+48 601 478 485</p>
+                    <p>info@strefagym.pl</p>
+                    <p>Łódzka 18, Zgierz, 95-100</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
